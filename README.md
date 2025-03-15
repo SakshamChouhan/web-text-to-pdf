@@ -14,7 +14,7 @@ A Chrome extension that allows users to convert selected or full webpage text in
 
 ### 1️⃣ Clone the Repository
 ```sh
-git clone https://github.com/YOUR-USERNAME/web-text-to-pdf.git
+git clone https://github.com/SakshamChouhan/web-text-to-pdf.git
 cd web-text-to-pdf
 ```
 
@@ -49,7 +49,7 @@ cd ../chrome-extension
 ## 📂 Project Structure
 ```
 web-text-to-pdf/
-├── chrome-extension/      # Chrome Extension Files
+├─  # Chrome Extension Files
 │   ├── manifest.json      # Chrome extension config
 │   ├── background.js      # Handles right-click action
 │   ├── popup.html         # Popup UI
@@ -57,8 +57,9 @@ web-text-to-pdf/
 │   ├── server.js          # Express server
 │   ├── pdfs/              # Stores generated PDFs
 │   ├── views/             # HTML to list all PDFs
-│   ├── package.json       # Node.js dependencies
-├── .gitignore             # Ignored files
+│   ├── package.json 
+|   |── .gitignore   # Ignored files
+├──            
 ├── README.md              # Project documentation
 ```
 
@@ -79,10 +80,6 @@ This project is licensed under the MIT License. Feel free to use and modify! �
 ## 🏆 Contributing
 Want to improve this project? Feel free to fork and submit a PR! 🚀
 
-```sh
-git clone https://github.com/YOUR-USERNAME/web-text-to-pdf.git
-cd web-text-to-pdf
-```
 
 1. Create a new branch: `git checkout -b feature-name`
 2. Make your changes and commit: `git commit -m "Added new feature"`
